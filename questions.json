@@ -1,0 +1,40 @@
+
+[
+    {
+        "id": 1,
+        "question": "Inside which HTML element do we put the JavaScript?",
+        "answers":[
+            {
+                "text": "Web dev",
+                "isRight": true
+            },
+            {
+                "text": "Web dev2",
+                "isRight": true
+            },
+            {
+                "text": "Web dev3",
+                "isRight": true
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "question": "Where is the correct place to insert a JavaScript?",
+        "answers":[
+            {
+                "text": "The <body/>",
+                "isRight": true
+            },
+            {
+                "text": "Both the <head> section and the <body> section are correct",
+                "isRight": true
+            },
+            {
+                "text": "The <head> section",
+                "isRight": true
+            }
+        ]
+    } 
+    
+]
