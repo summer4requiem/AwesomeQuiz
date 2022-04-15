@@ -21,11 +21,9 @@ export const styles = StyleSheet.create({
     borderBottomRightRadius: 3,
   },
   quizzSection: {
-    backgroundColor: '#429ef5',
-    // backgroundColor: 'red',
+    // backgroundColor: '#429ef5',
     padding: 20,
     textAlign: 'center',
-    // flex: 1,
     borderTopLeftRadius: 15,
     borderTopRightRadius: 15,
   },

@@ -9,33 +9,15 @@
 import questions from './questions.json';
 
 import React from 'react';
-import {StyleSheet, SafeAreaView, View, Text} from 'react-native';
-import {QuestionCard} from './src/components';
+import {NavigationContainer} from '@react-navigation/native';
+import {BottomTabNavigator} from './src/systems/navigataionSystem';
 
 const App = () => {
   return (
-    <SafeAreaView style={styles.container}>
-      <Text style={styles.greeting}>Hello, Jack</Text>
-      <View>
-        <QuestionCard {...questions[0]} />
-      </View>
-    </SafeAreaView>
+    <NavigationContainer>
+      <BottomTabNavigator />
+    </NavigationContainer>
   );
 };
-
-const styles = StyleSheet.create({
-  quizzHeader: {
-    marginBottom: 15,
-  },
-  container: {
-    flex: 1,
-    backgroundColor: 'white',
-  },
-  greeting: {
-    fontSize: 30,
-    fontWeight: 'bold',
-    textAlign: 'center',
-  },
-});
 
 export default App;
