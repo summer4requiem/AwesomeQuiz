@@ -1,7 +1,8 @@
+import React from 'react';
 import {View, Text, Button} from 'react-native';
 import {styles} from './styles';
 
-const QuestionCard = ({name, id, answers}) => {
+const QuestionCard = ({id, question, answers}) => {
   return (
     <View style={styles.quizzSection}>
       <View style={styles.quizzHeader}>

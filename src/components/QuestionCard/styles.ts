@@ -4,10 +4,6 @@ export const styles = StyleSheet.create({
   quizzHeader: {
     marginBottom: 15,
   },
-  backgroundStyle: {
-    flex: 1,
-    backgroundColor: 'white',
-  },
   quizButtom: {
     backgroundColor: 'white',
   },
@@ -25,10 +21,9 @@ export const styles = StyleSheet.create({
     borderBottomRightRadius: 3,
   },
   quizzSection: {
-    backgroundColor: '#429ef5',
+    // backgroundColor: '#429ef5',
     padding: 20,
     textAlign: 'center',
-    flex: 1,
     borderTopLeftRadius: 15,
     borderTopRightRadius: 15,
   },
@@ -47,13 +42,5 @@ export const styles = StyleSheet.create({
   sectionTitle: {
     fontSize: 24,
     fontWeight: '600',
-  },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
-  },
-  highlight: {
-    fontWeight: '700',
   },
 });
