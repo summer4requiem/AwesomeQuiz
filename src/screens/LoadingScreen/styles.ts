@@ -3,10 +3,7 @@ import {StyleSheet} from 'react-native';
 export const styles = StyleSheet.create({
   root: {
     flex: 1,
-    // backgroundColor: 'white',
-    width: 300,
-    padding: 30,
-    alignContent: 'center',
+    backgroundColor: 'white',
     justifyContent: 'center',
   },
   header: {
@@ -15,19 +12,26 @@ export const styles = StyleSheet.create({
     marginBottom: 40,
   },
   dot: {
-    width: 30,
-    height: 30,
+    width: 40,
+    height: 40,
     backgroundColor: '#cc0000',
     borderRadius: 50,
   },
   dotsContainer: {
     flexDirection: 'row',
     justifyContent: 'space-between',
+    width: 300,
   },
   green: {
     backgroundColor: 'green',
   },
   blue: {
     backgroundColor: 'lightblue',
+  },
+  yellow: {
+    backgroundColor: 'yellow',
+  },
+  red: {
+    backgroundColor: 'red',
   },
 });
