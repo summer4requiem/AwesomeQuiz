@@ -10,12 +10,12 @@ import questions from './questions.json';
 
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
-import {BottomTabNavigator} from './src/systems/navigataionSystem';
+import RootStackNavigator from './src/systems/navigataionSystem/RootStackNavigator/RootStackNavigator';
 
 const App = () => {
   return (
     <NavigationContainer>
-      <BottomTabNavigator />
+      <RootStackNavigator />
     </NavigationContainer>
   );
 };

@@ -1,3 +1,4 @@
+import {useNavigation} from '@react-navigation/native';
 import React, {FC, memo} from 'react';
 import {Text, View} from 'react-native';
 

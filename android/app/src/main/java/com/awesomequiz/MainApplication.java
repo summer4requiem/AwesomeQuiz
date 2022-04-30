@@ -1,5 +1,7 @@
 package com.awesomequiz;
 
+import com.facebook.react.bridge.JSIModulePackage;
+import com.swmansion.reanimated.ReanimatedJSIModulePackage;
 import com.oblador.vectoricons.VectorIconsPackage;
 import android.app.Application;
 import android.content.Context;
@@ -36,6 +38,11 @@ public class MainApplication extends Application implements ReactApplication {
     @Override
     protected String getJSMainModuleName() {
       return "index";
+    }
+
+    @Override
+    protected JSIModulePackage getJSIModulePackage() {
+      return new ReanimatedJSIModulePackage();
     }
   };
 
